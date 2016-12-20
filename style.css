@@ -1,0 +1,9 @@
+#wrapper {
+	position: absolute;
+	height: 713px;
+	width: 1110px;
+	background: #034C81;
+	background-image: radial-gradient(rgb(33, 153, 206), rgb(3, 76, 129));
+	background: -webkit-radial-gradient(rgb(33, 153, 206), rgb(3, 76, 129));
+	/*background-size: 1110px 713px;*/
+}
