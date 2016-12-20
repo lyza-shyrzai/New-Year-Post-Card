@@ -186,3 +186,24 @@
     left: 503px;
     top: 265px;
 }
+
+.r_micro_small, .g_micro_small, .b_micro_small
+{
+    height: 10px;
+    width: 10px;
+}
+
+.r_micro_small {
+    left: 520px;
+    top: 227px;
+}
+
+.g_micro_small {
+    left: 580px;
+    top: 227px;
+}
+
+.b_micro_small {
+    left: 550px;
+    top: 235px;
+}
