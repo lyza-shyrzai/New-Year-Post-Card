@@ -45,126 +45,133 @@
 
 /* стили для елки */
 .tree, .tree:before, .tree:after, .tree_bot, .tree_bot:before, .tree_bot:after {
-     height: 0;
-     position: absolute;
-     width: 0;
+    height: 0;
+    position: absolute;
+    width: 0;
 
-     border-radius: 40px;
-     -moz-border-radius: 40px;
-     -webkit-border-radius: 40px;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
 }
 
 .tree {
-     border-left: 20px solid transparent;
-     border-right: 20px solid transparent;
-     border-bottom: 20px solid green;
-     left: 535px;
-     top: 187px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid green;
+    left: 535px;
+    top: 187px;
 }
 
 .tree:before {
-     content:'';
-     border-left: 40px solid transparent;
-     border-right: 40px solid transparent;
-     border-bottom: 40px solid green;
-     left: -40px;
-     top: 15px;
+    content:'';
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid green;
+    left: -40px;
+    top: 15px;
 }
 
 .tree:after {
-     content:'';
-     border-left: 60px solid transparent;
-     border-right: 60px solid transparent;
-     border-bottom: 60px solid green;
-     left: -60px;
-     top: 40px;
+    content:'';
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid green;
+    left: -60px;
+    top: 40px;
 }
 
 /* елка, нижняя часть */
 .tree_bot {
-     border-left: 80px solid transparent;
-     border-right: 80px solid transparent;
-     border-bottom: 80px solid green;
-     left: 475px;
-     top: 262px;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid green;
+    left: 475px;
+    top: 262px;
 }
 
 .tree_bot:before {
-     content:'';
-     border-left: 100px solid transparent;
-     border-right: 100px solid transparent;
-     border-bottom: 100px solid green;
-     left: -100px;
-     top: 40px;
+    content:'';
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid green;
+    left: -100px;
+    top: 40px;
 }
 
 .tree_bot:after {
-     content:'';
-     border-left: 120px solid transparent;
-     border-right: 120px solid transparent;
-     border-bottom: 120px solid green;
-     left: -120px;
-     top: 80px;
+    content:'';
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid green;
+    left: -120px;
+    top: 80px;
 }
 
 /* стили для шариков */
 .ball {
- height: 40px;
- left: 535px;
- position: absolute;
- top: 397px;
- width: 40px;
+    height: 40px;
+    left: 535px;
+    position: absolute;
+    top: 397px;
+    width: 40px;
 
- border-radius: 40px;
- -moz-border-radius: 40px;
- -webkit-border-radius: 40px;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
 
- box-shadow: 0 0 5px #777;
- -moz-box-shadow: 0 0 5px #777;
- -webkit-box-shadow: 0 0 5px #777;
+    box-shadow: 0 0 5px #777;
+    -moz-box-shadow: 0 0 5px #777;
+    -webkit-box-shadow: 0 0 5px #777;
 }
+
 .red {
- background-color: #c8171f;
- background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
- background-image: -moz-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
- background-image: -o-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
- background-image: radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+    background-color: #c8171f;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+    background-image: -moz-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+    background-image: -o-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+    background-image: radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
 
- left: 485px;
- top: 377px;
+    left: 485px;
+    top: 377px;
 }
+
 .blue {
- background-color: #00a1ee;
- background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
- background-image: -moz-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
- background-image: -o-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
- background-image: radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+    background-color: #00a1ee;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+    background-image: -moz-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+    background-image: -o-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+    background-image: radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
 }
-.green {
- background-color: #4d8d00;
- background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
- background-image: -moz-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
- background-image: -o-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
- background-image: radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
 
- left: 585px;
- top: 377px;
+.green {
+    background-color: #4d8d00;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+    background-image: -moz-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+    background-image: -o-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+    background-image: radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+
+    left: 585px;
+    top: 377px;
 }
+
 .rsmall, .gsmall, .bsmall {
- height: 25px;
- width: 25px;
+    height: 25px;
+    width: 25px;
 }
+
 .rsmall {
- left: 540px/*585px*/;
- top: 327px;
+    left: 540px/*585px*/;
+    top: 327px;
 }
+
 .bsmall {
- left: 585px;
- top: 307px;
+    left: 585px;
+    top: 307px;
 }
+
 .gsmall {
- left: 495px;
- top: 307px;
+    left: 495px;
+    top: 307px;
 }
 
 .r_very_small, .g_very_small, .b_very_small {
@@ -206,4 +213,58 @@
 .b_micro_small {
     left: 550px;
     top: 235px;
+}
+
+/* Звезда */
+
+#star-five {
+    margin-left: 3608px;
+    margin-top: 1210px; 
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 0px;
+    height: 0px;
+    border-right:  100px solid transparent;
+    border-bottom: 70px  solid yellow;
+    border-left:   100px solid transparent;
+    -moz-transform:    rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform:     rotate(35deg);
+    -o-transform:      rotate(35deg);
+}
+
+#star-five:before {
+    border-bottom: 80px solid yellow;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
+}
+
+#star-five:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform:    rotate(-70deg);
+    -ms-transform:     rotate(-70deg);
+    -o-transform:      rotate(-70deg);
+    content: '';
 }
