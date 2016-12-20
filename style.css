@@ -2,8 +2,41 @@
 	position: absolute;
 	height: 713px;
 	width: 1110px;
+	overflow: hidden;
 	background: #034C81;
 	background-image: radial-gradient(rgb(33, 153, 206), rgb(3, 76, 129));
 	background: -webkit-radial-gradient(rgb(33, 153, 206), rgb(3, 76, 129));
 	/*background-size: 1110px 713px;*/
 }
+
+#snow {
+    position: absolute;
+    z-index: 5;
+    top: 450px;
+    left: 50%;
+    margin-left: -1000px;
+    width: 2000px;
+    height: 2000px;
+    background: #fff;
+    border-radius: 2000px;
+}
+
+#snow:before {
+    content: '';
+    position: absolute;
+    left: 400px;
+    height: 2000px;
+    width: 2000px;
+    background: #f8f8f8;
+    border-radius: 2000px;
+}
+
+#snow:after {
+    content: '';
+    position: absolute;
+    right: 400px;
+    height: 2000px;
+    width: 2000px;
+    background: #f4f4f4;
+    border-radius: 2000px;
+} 
