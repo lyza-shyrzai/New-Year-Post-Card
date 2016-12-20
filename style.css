@@ -155,16 +155,16 @@
  width: 25px;
 }
 .rsmall {
+ left: 540px/*585px*/;
+ top: 327px;
+}
+.bsmall {
  left: 585px;
  top: 307px;
 }
-.bsmall {
+.gsmall {
  left: 495px;
  top: 307px;
-}
-.gsmall {
- left: 540px;
- top: 327px;
 }
 
 .r_very_small, .g_very_small, .b_very_small {
@@ -173,16 +173,16 @@
 }
 
 .r_very_small {
-    left: 545px;
-    top: 280px;
+    left: 590px;/*545px;*/
+    top: 265px;/*280px;*/
 }
 
 .g_very_small {
-    left: 503px;
-    top: 265px;
+    left: 545px;/*503px;*/
+    top: 280px;/*265px;*/
 }
 
 .b_very_small {
-    left: 590px;
+    left: 503px;
     top: 265px;
 }
