@@ -286,3 +286,19 @@
     margin-left: 750px;
     border-radius: 40%;
 }
+
+#second_road {
+    position: absolute;
+    z-index: 9;
+    content: '';
+    height: 800px;
+    width: 80px;
+    background: #323232;
+    -webkit-transform: rotate(9.65deg);
+    -moz-transform:    rotate(9.65deg);
+    -ms-transform:     rotate(9.65deg);
+    -o-transform:      rotate(9.65deg);
+    margin: 447.9px;
+    margin-left: 134px;
+    border-radius: 46%;
+}
