@@ -11,7 +11,7 @@
 
 #snow {
     position: absolute;
-    z-index: 6;
+    z-index: 5;
     top: 450px;
     left: 50%;
     margin-left: -1000px;
@@ -22,7 +22,7 @@
 }
 
 #snow:before {
-    z-index: 8;
+    z-index: 7;
     content: '';
     position: absolute;
     left: 400px;
@@ -33,7 +33,7 @@
 }
 
 #snow:after {
-    z-index: 4;
+    
     content: '';
     position: absolute;
     right: 400px;
@@ -267,4 +267,22 @@
     -ms-transform:     rotate(-70deg);
     -o-transform:      rotate(-70deg);
     content: '';
+}
+
+/*Дорога*/
+
+#one_road {
+    position: absolute;
+    z-index: 8;
+    content: '';
+    height: 800px;
+    width: 100px;
+    background: #323232;
+    -webkit-transform: rotate(-21deg);
+    -moz-transform:    rotate(-21deg);
+    -ms-transform:     rotate(-21deg);
+    -o-transform:      rotate(-21deg);
+    margin: 468px;
+    margin-left: 750px;
+    border-radius: 40%;
 }
