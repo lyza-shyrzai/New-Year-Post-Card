@@ -218,15 +218,15 @@
 /* Звезда */
 
 #star-five {
-    margin-left: 3608px;
-    margin-top: 1210px; 
+    margin-left: 2991px;
+    margin-top: 990px; 
     position: absolute;
     display: block;
-    color: pink;
+    color: #FFD700;
     width: 0px;
     height: 0px;
     border-right:  100px solid transparent;
-    border-bottom: 70px  solid yellow;
+    border-bottom: 70px  solid #FFD700;
     border-left:   100px solid transparent;
     -moz-transform:    rotate(35deg);
     -webkit-transform: rotate(35deg);
@@ -235,7 +235,7 @@
 }
 
 #star-five:before {
-    border-bottom: 80px solid yellow;
+    border-bottom: 80px solid #FFD700;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     position: absolute;
@@ -254,13 +254,13 @@
 #star-five:after {
     position: absolute;
     display: block;
-    color: red;
+    color: #FFD700;
     top: 3px;
     left: -105px;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid yellow;
+    border-bottom: 70px solid #FFD700;
     border-left: 100px solid transparent;
     -webkit-transform: rotate(-70deg);
     -moz-transform:    rotate(-70deg);
