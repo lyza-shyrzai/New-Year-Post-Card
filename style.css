@@ -276,7 +276,7 @@
     content: '';
     height: 800px;
     width: 100px;
-    background: #323232;
+    background: #505050;
     -webkit-transform: rotate(-21deg);
     -moz-transform:    rotate(-21deg);
     -ms-transform:     rotate(-21deg);
@@ -292,7 +292,7 @@
     content: '';
     height: 800px;
     width: 80px;
-    background: #323232;
+    background: #505050;
     -webkit-transform: rotate(9.65deg);
     -moz-transform:    rotate(9.65deg);
     -ms-transform:     rotate(9.65deg);
