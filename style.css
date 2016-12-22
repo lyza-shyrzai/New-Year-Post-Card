@@ -301,3 +301,20 @@
     margin-left: 134px;
     border-radius: 46%;
 }
+
+#tree_road {
+    position: absolute;
+    z-index: 10;
+    border-bottom: 52px solid red;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    height: 0;
+    width: 100px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform:    rotate(9.65deg);
+    -ms-transform:     rotate(9.65deg);
+    -o-transform:      rotate(9.65deg);
+    margin: 452px;
+    margin-left: 485px;
+    
+}
