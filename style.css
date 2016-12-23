@@ -304,17 +304,16 @@
 
 #tree_road {
     position: absolute;
-    z-index: 10;
-    border-bottom: 52px solid red;
-    border-left: 22px solid transparent;
-    border-right: 22px solid transparent;
-    height: 0;
-    width: 100px;
-    -webkit-transform: rotate(0deg);
+    z-index: 9;
+    content: '';
+    height: 79px;
+    width: 40px;
+    background: #505050;
+    -webkit-transform: rotate(-1deg);
     -moz-transform:    rotate(9.65deg);
     -ms-transform:     rotate(9.65deg);
     -o-transform:      rotate(9.65deg);
-    margin: 452px;
-    margin-left: 485px;
-    
+    margin: 450px;
+    margin-left: 505px;
+    border-radius: 33% 33% 1px 45px;
 }
