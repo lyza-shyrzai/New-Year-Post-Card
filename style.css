@@ -110,7 +110,7 @@
 /* стили для шариков */
 .ball {
     height: 40px;
-    left: 545px;
+    left: 544px;
     position: absolute;
     top: 397px;
     width: 40px;
@@ -131,7 +131,7 @@
     background-image: -o-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
     background-image: radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
 
-    left: 485px;
+    left: 463px;
     top: 377px;
 }
 
@@ -150,7 +150,7 @@
     background-image: -o-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
     background-image: radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
 
-    left: 605px;
+    left: 625px;
     top: 377px;
 }
 
@@ -160,18 +160,18 @@
 }
 
 .rsmall {
-    left: 540px/*585px*/;
-    top: 327px;
+    left: 554px/*585px*/;
+    top: 337px;
 }
 
 .bsmall {
-    left: 585px;
-    top: 307px;
+    left: 623px;
+    top: 320px;
 }
 
 .gsmall {
-    left: 495px;
-    top: 307px;
+    left: 486px;
+    top: 320px;
 }
 
 .r_very_small, .g_very_small, .b_very_small {
