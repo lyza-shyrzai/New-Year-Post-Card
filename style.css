@@ -12,7 +12,7 @@
 #snow {
     position: absolute;
     z-index: 4;
-    top: 450px;
+    top: 600px;
     left: 50%;
     margin-left: -1000px;
     width: 2000px;
@@ -43,10 +43,11 @@
 }
 
 /* стили для елки */
+
 .tree, .tree:before, .tree:after, .tree_bot, .tree_bot:before, .tree_bot:after {
-    height: 0;
+    height: 0px;
     position: absolute;
-    width: 0;
+    width: 20px;
 
     border-radius: 40px;
     -moz-border-radius: 40px;
