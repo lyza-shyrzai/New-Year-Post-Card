@@ -110,7 +110,7 @@
 /* стили для шариков */
 .ball {
     height: 40px;
-    left: 535px;
+    left: 545px;
     position: absolute;
     top: 397px;
     width: 40px;
@@ -150,7 +150,7 @@
     background-image: -o-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
     background-image: radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
 
-    left: 585px;
+    left: 605px;
     top: 377px;
 }
 
