@@ -107,6 +107,16 @@
     top: 80px;
 }
 
+.stem {
+    position: absolute;
+    content: '';
+    height: 70px;
+    width: 20px;
+    top: 462px;
+    left: 551px;
+    background: #51422f;
+}
+
 /* стили для шариков */
 .ball {
     height: 40px;
