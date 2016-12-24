@@ -180,18 +180,18 @@
 }
 
 .r_very_small {
-    left: 590px;/*545px;*/
-    top: 265px;/*280px;*/
+    left: 610px;/*545px;*/
+    top: 270px;/*280px;*/
 }
 
 .g_very_small {
-    left: 545px;/*503px;*/
-    top: 280px;/*265px;*/
+    left: 556px;/*503px;*/
+    top: 284px;/*265px;*/
 }
 
 .b_very_small {
     left: 503px;
-    top: 265px;
+    top: 270px;
 }
 
 .r_micro_small, .g_micro_small, .b_micro_small
