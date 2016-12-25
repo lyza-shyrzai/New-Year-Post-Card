@@ -3,10 +3,11 @@
 	height: 713px;
 	width: 1110px;
 	overflow: hidden;
-	/*background: #034C81;*/
     background: linear-gradient(90deg, rgb(121, 227, 223), rgb(4, 122, 132));
     background: -webkit-linear-gradient(90deg, rgb(121, 227, 223), rgb(4, 122, 132));
-	/*background-size: 1110px 713px;*/
+    background: -o-linear-gradient(90deg, rgb(121, 227, 223), rgb(4, 122, 132));
+    background: -moz-linear-gradient(90deg, rgb(121, 227, 223), rgb(4, 122, 132));
+    background: -ms-linear-gradient(90deg, rgb(121, 227, 223), rgb(4, 122, 132));
 }
 
 #snow {
@@ -52,6 +53,8 @@
     border-radius: 40px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .tree {
@@ -128,10 +131,14 @@
     border-radius: 40px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 
     box-shadow: 0 0 5px #777;
     -moz-box-shadow: 0 0 5px #777;
     -webkit-box-shadow: 0 0 5px #777;
+    -ms-box-shadow: 0 0 5px #777;
+    -o-box-shadow: 0 0 5px #777;
 }
 
 .red {
@@ -139,6 +146,7 @@
     background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
     background-image: -moz-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
     background-image: -o-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+    background-image: -ms-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
     background-image: radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
 
     left: 464px;
@@ -150,6 +158,7 @@
     background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
     background-image: -moz-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
     background-image: -o-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+    background-image: -ms-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
     background-image: radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
 }
 
@@ -158,6 +167,7 @@
     background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
     background-image: -moz-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
     background-image: -o-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+    background-image: -ms-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
     background-image: radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
 
     left: 625px;
@@ -170,7 +180,7 @@
 }
 
 .rsmall {
-    left: 554px/*585px*/;
+    left: 554px;
     top: 337px;
 }
 
@@ -190,13 +200,13 @@
 }
 
 .r_very_small {
-    left: 610px;/*545px;*/
-    top: 270px;/*280px;*/
+    left: 610px;
+    top: 270px;
 }
 
 .g_very_small {
-    left: 556px;/*503px;*/
-    top: 284px;/*265px;*/
+    left: 556px;
+    top: 284px;
 }
 
 .b_very_small {
