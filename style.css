@@ -288,16 +288,3 @@
     -o-transform:      rotate(-70deg);
     content: '';
 }
-
-h1 {
-    z-index: 10;
-    font: bold 115px/95px 'Sniglet', Arial;
-    color: #;
-    text-transform: uppercase;
-    margin: 0;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.15),
-                 0 10px 0 #cfeaed, -5px -5px 10px #4ea5b1;
-    position: absolute;
-    bottom: 100px;
-    left: 20px;
-}
