@@ -7,4 +7,4 @@ This is musical New Year Post Cards. When creating postcard were used HTML, CSS,
 
 -------------------------------------------------------------------------------
 
-Это музыкальная новогодняя открытка. При создании использовались HTML, CSS, JavaScript, SVG. Музыка: Chris Rea ~ Driving Home For Christmas. Открытка протестирована в браузере Google Chrome 55.0.2883.87 m. Счастивого Нового Года!
+Это музыкальная новогодняя открытка. При создании использовались HTML, CSS, JavaScript, SVG. Музыка: Chris Rea ~ Driving Home For Christmas. Открытка протестирована в браузере Google Chrome 55.0.2883.87 m. Счастливого Нового Года!
